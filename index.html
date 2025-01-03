@@ -1,18 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/roastpork.html">Roast Pork, Just Kidding</a></li>
-        <li><a href="recipes/chaliapin.html">Chaliapin Steak Don</a></li>
-        <li><a href="recipes/eggtempura.html">Egg Tempura Don</a></li>
-        <li><a href="recipes/furikake.html">Transforming Furikake Gohan</a></li>
-    </ul>
+    <div id="parent-body-container">
+        <div id="child-body-container">
+            <h1 id="website-title">Odin Recipes</h1>
+            <div id="cards-parent-container">
+                <div>
+                    <div class="cards">
+                        <img src="images/Roast_Pork,_Just_Kidding_(anime).png" class="food-images">
+                        <div class="cards-child">
+                            <h2>Roast Pork, Just Kidding</h2>
+                            <p>Roast Pork, Just Kidding is a dish made by Sōma Yukihira in order to
+                                defend Restaurant Yukihira from being demolished by Yaeko Minegasaki, the urban life
+                                planner. </p>
+                            <a href="recipes/roastpork.html">View Recipe</a>
+                        </div>
+                    </div>
+                    <div class="cards-wrapper">
+                        <div class="cards">
+                            <img src="images/Chaliapin_Steak_Don_(anime).png" class="food-images">
+                            <div class="cards-child">
+                                <h2>Chaliapin Steak Don</h2>
+                                <p>
+                                    The dish is exclusively made by Sōma combined with the Japanese original dish, the
+                                    Chaliapin Steak, and the donburi concept for his first Shokugeki. Although the dish
+                                    was made with cheap ingredients that can be found in a supermarket, the meal focused
+                                    on both innovation and balance of the ingredients to fulfill the donburi mantra,
+                                    "Dons are completed in one bowl."
+                                </p>
+                                <a href="recipes/chaliapin.html">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-wrapper">
+                        <div class="cards">
+                            <img src="images/Chicken_Egg_Tempura_Don_(Anime).png" class="food-images">
+                            <div class="cards-child">
+                                <h2>Egg Tempura Don</h2>
+                                <p>A frozen egg that is deep-fried in tempura batter, producing a soft-boiled tempura
+                                    egg over rice. Though the dish uses common, low-grade eggs, the dishes' power comes
+                                    from this fact as no other egg grade can produce the flavor that dish can create.
+                                </p>
+                                <a href="recipes/eggtempura.html">View Recipe</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cards-wrapper">
+                        <div class="cards">
+                            <img src="images/Transforming_Furikake_Gohan_(anime).png" class="food-images">
+                            <div class="cards-child">
+                                <h2>Transforming Furikake Gohan</h2>
+                                <p>An original take on the classical Furikake Gohan, the Yukihira style uses eggs coated
+                                    by a golden coating using chilled chicken broth to create a golden jewel from the
+                                    simplest ingredients. </p>
+                                <a href="recipes/furikake.html">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
